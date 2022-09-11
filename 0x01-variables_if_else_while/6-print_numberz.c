@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*Description:'output base 10 numbers'
+*Description:'output base 10 numbers using putchar'
 *Return: Always 0 (Success)
 */
-int main(){
-int count =0;
-while(count < 10)
-printf("%d", count++);
-printf("\n");
+int main(void)
+{
+int ch = '0';
+for (ch = '0'; ch <= '9'; ch++)
+putchar(ch);
+putchar('\n');
 return (0);
 }
