@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* main - check the code
-* print_alphabet: 'Print Strings'
-* Return: Always 0.
+* print_alphabet - does my stuff
+*
+*Description: Does my stuff explained.
 */
 void print_alphabet(void)
 {
